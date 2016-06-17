@@ -1,0 +1,9 @@
+---
+applications:
+- name: gemcache
+  path: build/libs/spring-app-client-config-1.0.jar
+  services:
+  - service-registry
+  - gemtest
+  env:
+    SPRING_PROFILES_ACTIVE: dev

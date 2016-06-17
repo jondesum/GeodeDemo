@@ -1,0 +1,9 @@
+---
+applications:
+- name: redis_app
+  path: build/libs/re-0.0.1-SNAPSHOT.jar
+  services:
+    - service-registry
+    - redisdemo
+  env:
+    SPRING_PROFILES_ACTIVE: dev
